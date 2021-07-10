@@ -134,15 +134,12 @@ window.addEventListener("scroll", function () {
             break;
         }
     }
-    console.log(hideNavTimer);
 
     // Hidde nav while no scroll
     setTimeout(function() {
-    console.log(hideNavTimer);
 
         if (hideNavTimer == 1) {
             nav.style.display = "none";
-              
         } 
 
         hideNavTimer--;
